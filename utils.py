@@ -33,11 +33,6 @@ def get_candidates_by_skill(candidates, skill_name):
     return candidates_by_skill
 
 
-candi = load_candidates_from_json()
-print(candi)
-print(get_candidate(candi, 1))
-print(get_candidates_by_skill(candi, 'python'))
-print(get_candidates_by_name(candi, "ad"))
 
 
 
